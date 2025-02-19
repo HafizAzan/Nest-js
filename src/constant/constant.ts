@@ -1,0 +1,24 @@
+export enum BATCH_STATUS {
+  ONGOING = 'ONGOING',
+  OUTGOING = 'OUTGOING',
+}
+export enum EARNINGS_STATUS {
+  PAID = 'PAID',
+  UNPAID = 'UNPAID',
+}
+export enum TEST_SUBMISION {
+  SUBMITED = 'SUBMITED',
+  NOTSUBMITED = 'NOT SUBMITED',
+}
+export enum ASSIGNED_TEST_STATUS {
+  APPROVED = 'APPROVED',
+  UNAPPROVED = 'UNAPPROVED',
+}
+export enum ASSIGNED_STUDENT_STATUS {
+  AVAILABLE = 'AVAILABLE',
+  UNAVAILABLE = 'UNAVAILABLE',
+}
+
+export interface FileParams {
+  fileName: string;
+}
