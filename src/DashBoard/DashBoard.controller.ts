@@ -1,17 +1,5 @@
-import {
-  Controller,
-  Get,
-  Post,
-  Body,
-  Patch,
-  Param,
-  Delete,
-  HttpException,
-  HttpStatus,
-} from '@nestjs/common';
+import { Controller, Get } from '@nestjs/common';
 import { DashboardService } from './dashboard.service';
-import { CreateDashboardDto } from './dto/create-dashboard.dto';
-import { UpdateDashboardDto } from './dto/update-dashboard.dto';
 import { studentService } from 'src/student-management/student.service';
 import { BatchService } from 'src/batch-management/batch.service';
 import { ExpensesService } from 'src/ExpensesModules/Expenses.service';

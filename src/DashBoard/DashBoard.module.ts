@@ -6,7 +6,6 @@ import {
   DashBoardSchemas,
   SchemaDashboard,
 } from 'src/schemas/dashboard.schema';
-import { studentManagementModule } from 'src/student-management/student.module';
 import { studentService } from 'src/student-management/student.service';
 import {
   StudentsSchema,
