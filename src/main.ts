@@ -5,6 +5,7 @@ import { NestExpressApplication } from '@nestjs/platform-express';
 import * as bodyParser from 'body-parser';
 import { AllExceptionsFilter } from './all.exeption';
 import * as path from 'path';
+import * as process from 'process';
 import { join } from 'path';
 
 async function bootstrap() {
@@ -21,6 +22,8 @@ async function bootstrap() {
     credentials: true,
   });
   app.setViewEngine('hbs');
-  await app.listen(7000);
+  const PORT = process.env.PORT || 7000;
+  await app.listen(PORT, '0.0.0.0');
+  console.log(`🚀 Server is running on http://localhost:${PORT}`);
 }
 bootstrap();
