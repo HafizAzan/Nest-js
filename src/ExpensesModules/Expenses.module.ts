@@ -6,12 +6,12 @@ import { EXPENSES_MODEL, expenses_Schema } from 'src/schemas/expenses.schema';
 import {
   DashBoardSchemas,
   SchemaDashboard,
-} from 'src/Schemas/DashBoard.schema';
+} from 'src/schemas/dashboard.schema';
 import { DashboardService } from 'src/dashboard/dashboard.service';
 import {
   StudentsSchema,
   studentsSchema,
-} from 'src/Schemas/student-mangement.schema';
+} from 'src/Schemas/student-management.schema';
 import {
   batchManagementSchema,
   BatchSchema,

@@ -1,5 +1,5 @@
 import { Prop, Schema, SchemaFactory } from '@nestjs/mongoose';
-import { StudentsSchema } from './student-mangement.schema';
+import { StudentsSchema } from './student-management.schema';
 import mongoose from 'mongoose';
 import { BatchSchema } from './batch-management.schema';
 

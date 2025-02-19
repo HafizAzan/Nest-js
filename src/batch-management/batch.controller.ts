@@ -20,7 +20,7 @@ import {
   updateOneBatch,
 } from 'src/DTOs/batch.post.dto';
 import { studentService } from 'src/student-management/student.service';
-import { StudentsSchema } from 'src/Schemas/student-mangement.schema';
+import { StudentsSchema } from 'src/Schemas/student-management.schema';
 import { BatchSchema } from 'src/Schemas/batch-management.schema';
 import { Types } from 'mongoose';
 import { updateOne } from 'src/DTOs/student.dto';

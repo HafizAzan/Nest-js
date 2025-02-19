@@ -17,7 +17,7 @@ import { FileInterceptor } from '@nestjs/platform-express';
 import { createStudentsDTO, updateAll, updateOne } from 'src/DTOs/student.dto';
 import { diskStorage } from 'multer';
 import { studentService } from './student.service';
-import { StudentsSchema } from 'src/Schemas/student-mangement.schema';
+import { StudentsSchema } from 'src/Schemas/student-management.schema';
 
 @Controller('students-management')
 export class studentManagement {

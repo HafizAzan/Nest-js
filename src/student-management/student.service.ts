@@ -8,11 +8,10 @@ import {
 } from '@nestjs/common';
 import { InjectModel } from '@nestjs/mongoose';
 import { Model, Types } from 'mongoose';
-import { updateOneBatch } from 'src/DTOs/batch.post.dto';
 import { createStudentsDTO, updateAll, updateOne } from 'src/DTOs/student.dto';
 import { BatchSchema, SearchData } from 'src/Schemas/batch-management.schema';
-import { DashBoardSchemas } from 'src/Schemas/DashBoard.schema';
-import { StudentsSchema } from 'src/Schemas/student-mangement.schema';
+import { DashBoardSchemas } from 'src/schemas/dashboard.schema';
+import { StudentsSchema } from 'src/Schemas/student-management.schema';
 
 @Injectable()
 export class studentService {

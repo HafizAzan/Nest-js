@@ -1,7 +1,7 @@
 import { Prop, Schema, SchemaFactory } from '@nestjs/mongoose';
 import { BATCH_STATUS } from '../constant/constant';
 import mongoose, { Document } from 'mongoose';
-import { StudentsSchema } from './student-mangement.schema';
+import { StudentsSchema } from './student-management.schema';
 
 @Schema({
   timestamps: true,

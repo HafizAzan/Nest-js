@@ -16,8 +16,8 @@ import { updateExpenseOneDTO } from '../DTOs/update.One.DTO';
 import { CreateExpenseDTO } from '../DTOs/Expenses.DTO';
 import * as fs from 'fs';
 import * as path from 'path';
-import { DashBoardSchemas } from 'src/Schemas/DashBoard.schema';
-import { StudentsSchema } from 'src/Schemas/student-mangement.schema';
+import { DashBoardSchemas } from 'src/schemas/dashboard.schema';
+import { StudentsSchema } from 'src/Schemas/student-management.schema';
 import { BatchSchema, SearchData } from 'src/Schemas/batch-management.schema';
 import { Query } from 'express-serve-static-core';
 

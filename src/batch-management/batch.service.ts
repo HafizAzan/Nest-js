@@ -13,7 +13,7 @@ import {
   updateOneBatch,
 } from 'src/DTOs/batch.post.dto';
 import { BatchSchema, SearchData } from 'src/Schemas/batch-management.schema';
-import { StudentsSchema } from 'src/Schemas/student-mangement.schema';
+import { StudentsSchema } from 'src/Schemas/student-management.schema';
 
 @Injectable()
 export class BatchService {

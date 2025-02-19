@@ -11,12 +11,12 @@ import { BatchService } from './batch.service';
 import {
   studentsSchema,
   StudentsSchema,
-} from 'src/Schemas/student-mangement.schema';
+} from 'src/Schemas/student-management.schema';
 import { studentService } from 'src/student-management/student.service';
 import {
   DashBoardSchemas,
   SchemaDashboard,
-} from 'src/Schemas/DashBoard.schema';
+} from 'src/schemas/dashboard.schema';
 import { DashboardService } from 'src/dashboard/dashboard.service';
 
 @Module({

@@ -11,9 +11,9 @@ import { InjectModel } from '@nestjs/mongoose';
 import { UpdateOneEarningDto } from '../DTOs/updateOne-earning.dto';
 import { Model } from 'mongoose';
 import { query } from 'express';
-import { DashBoardSchemas } from 'src/Schemas/DashBoard.schema';
+import { DashBoardSchemas } from 'src/schemas/dashboard.schema';
 import { EXPENSES_MODEL, ExpensesDocument } from 'src/schemas/expenses.schema';
-import { StudentsSchema } from 'src/Schemas/student-mangement.schema';
+import { StudentsSchema } from 'src/Schemas/student-management.schema';
 import { BatchSchema, SearchData } from 'src/Schemas/batch-management.schema';
 
 @Injectable()
