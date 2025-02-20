@@ -5,7 +5,6 @@ import { StudentsSchema } from 'src/Schemas/student-management.schema';
 import { InjectModel } from '@nestjs/mongoose';
 import { Model } from 'mongoose';
 import { DashBoardSchemas } from 'src/schemas/dashboard.schema';
-import { EXPENSES_MODEL, ExpensesDocument } from 'src/schemas/expenses.schema';
 import { SearchData } from 'src/Schemas/batch-management.schema';
 
 @Injectable()
